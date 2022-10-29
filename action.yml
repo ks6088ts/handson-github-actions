@@ -1,0 +1,16 @@
+name: "Hello world action"
+description: "Hello world action"
+author: "ks6088ts"
+inputs:
+  number:
+    description: "An input number."
+    required: true
+outputs:
+  number:
+    description: "An output number"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: 'calendar'
+  color: 'orange'
